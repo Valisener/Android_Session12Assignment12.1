@@ -1,0 +1,37 @@
+<resources>
+    <!--APp name-->
+    <string name="app_name">PreferencesExercise</string>
+    <!--Settings text for the button-->
+    <string name="btn_settings">SETTINGS</string>
+    <!--  Settigns text for the settings activity-->
+    <string name="settings_txt">SETTINGS</string>
+    <!--Password text for password selection-->
+    <string name="password_title_txt">PASSWORD</string>
+    <!--Set password text for setting password-->
+    <string name="password_set_txt">Set Your Password</string>
+
+    <!--Security settings text-->
+    <string name="security_settings_txt">SECURITY SETTINGS</string>
+    <!--Screen lock text-->
+    <string name="screen_lock_title_txt">Screen Lock</string>
+    <!--Lock the screen with password text-->
+    <string name="screen_lock">Lock The Screen With Password</string>
+    <!--Reminder for updating text-->
+    <string name="update_title_txt">Reminder For Updation</string>
+    <!--Set update reminder frequency text-->
+    <string name="update_txt">Set Update Reminder Frequency</string>
+
+    <!--Update times below-->
+    <!--5 min time-->
+    <string name="update5mins">5 Minutes</string>
+    <!--10 min time-->
+    <string name="update10mins">10 Minutes</string>
+    <!--20 min time-->
+    <string name="update20mins">20 Minutes</string>
+    <!--30 min time-->
+    <string name="update30mins">30 Minutes</string>
+    <!--60 min time-->
+    <string name="update60mins">60 Minutes</string>
+
+
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Contains an array of strings for the update reminder times-->
+    <string-array name="updateTimes">
+        <item>@string/update5mins</item>
+        <item>@string/update10mins</item>
+        <item>@string/update20mins</item>
+        <item>@string/update30mins</item>
+        <item>@string/update60mins</item>
+    </string-array>
+</resources>

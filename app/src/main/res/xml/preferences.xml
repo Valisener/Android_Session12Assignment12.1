@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--Settings category-->
+    <PreferenceCategory android:title="@string/settings_txt">
+    </PreferenceCategory>
+    <!--Password settings-->
+    <EditTextPreference
+        android:defaultValue="Default value"
+        android:key="password_pref"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:summary="@string/password_set_txt"
+        android:title="@string/password_title_txt" />
+    <PreferenceCategory android:title="@string/security_settings_txt">
+
+    </PreferenceCategory>
+    <!--Screen lock settings-->
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="screen_lock_pref"
+        android:title="@string/screen_lock_title_txt"
+        android:singleLine="true"
+        android:summary="@string/screen_lock"
+        />
+    <!--Update settings-->
+    <ListPreference
+        android:title="@string/update_title_txt"
+        android:summary="@string/update_txt"
+        android:defaultValue="@string/update5mins"
+        android:entries="@array/updateTimes"
+        android:entryValues="@array/updateTimes"
+        android:key="update_time_pref"
+        />
+</PreferenceScreen>
